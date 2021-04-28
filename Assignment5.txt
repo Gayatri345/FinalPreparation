@@ -1,0 +1,19 @@
+assignment due Tue March 25 at noon
+
+customize the problem-specific part of the program money.pro
+shown in class to solve two cryptarithmetic puzzles of your choice, from
+those available at:
+
+http://colin.barker.pagesperso-orange.fr/crypta.htm
+
+e.g.
+
+texas+nevada=alaska
+
+carter+reagan+lincoln=clinton
+
+etc.
+
+optional: write a generic solver that takes the
+actual input as a string: "texas+nevada=alaska" and
+prints out the result

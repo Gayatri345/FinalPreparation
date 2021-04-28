@@ -1,0 +1,42 @@
+Team assignment 2, due Thursday 25 February at 10 am.
+
+Solve the following 2 problems and submit your assignment on canvas, one assignment per team, with the team members names also marked on it. Please add the output of your code as a Haskell comment at the end of your .hs file.
+
+Problem 1.
+
+A Haskell program has the following definitions
+
+worm  = 1:2:3:worm
+eel   = [1,2,3,1,2,3,1,2,3]
+snake = 3:2:1:snake
+bird  = 1:2:bird
+whale = [1..100]
+
+Add a function "which" (defined from a list of integers to strings) that works as follows
+
+*Main> which worm
+"worm"
+*Main> which eel
+"eel"
+*Main> which snake
+"snake"
+*Main> which whale
+"whale"
+*Main> which bird
+"bird"
+
+More precisely, you will need to write a function that recognizes which of the 5 lists is given to it as input and then it returns its name, as a string. You do not need to worry what the function would return if a list, other than worm, eel, snake, bird or whale is given to it.
+
+Problem 2.
+
+Question 2. A rose tree with roses of type "a" is defined in Haskell as
+
+data RT a = Rose a | Tree [RT a] deriving (Show,Read,Eq)
+
+Roses on a tree can be either red or white, represented with an appropriate data type that you will need to specify.
+
+You are a gardener in "Alice in Wonderland", fearing the Queen that might chop off your head if your roses are not all red (like shown in this clip: https://www.youtube.com/watch?v=SfmAzoILaK8 ).
+
+In panic mode, you must write a Haskell program that paints red all the roses on a rose tree. 
+
+Test your program on 5 trees, each holding at least 5 roses.

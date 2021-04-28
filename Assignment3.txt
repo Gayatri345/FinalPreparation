@@ -1,0 +1,7 @@
+Team assignment 3, due Thursday March 4 at 12 pm.
+
+Write a Haskell program that generates the list of all the subsets of the set [1..n] that have as many elements as their complements. 
+
+Note: the complement of a set contains all the elements in [1..n] that are not members of the given set. 
+
+Show the outputs for n=6, as a comment in your program. Submit your work as a single .hs file on canvas.

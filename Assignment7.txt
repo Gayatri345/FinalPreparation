@@ -1,0 +1,13 @@
+Assignment 7, due Tuesday, April 19 at 11:00am
+
+
+Implement a crytarithmetic solver with 3 or more inputs in Java, Julia or Swift. A such example is:
+
+carter+reagan+lincoln=clinton
+
+and more can be found at:
+
+http://colin.barker.pagesperso-orange.fr/crypta.htm
+
+Submit your code, outprut and a README.txt file showing how to run it in a zip file on canvas.
+

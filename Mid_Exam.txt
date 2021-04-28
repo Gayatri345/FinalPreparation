@@ -1,0 +1,13 @@
+Exam 1, Programming Languages, Spring 2021
+
+Choose 2 out of the following 3 questions, for 15 points each, using two different languages among Python, Haskell and Prolog.
+
+Q1. Write a program that generates the set of all subsets of {1,2,3,...,N} such that the sum of a subset's elements is the same as the sum of the elements of its complement.
+
+Test your program for N=6
+
+Q2. A directed graph with N nodes is given to you as a list of edges, each represented as a pair of integers between 1 and N. Write a program that returns the list of all nodes of the graph, ordered by the number of incoming edges, in decreasing order. If  nodes x and y have the same number of incoming edges then the smallest among x and y should be placed first in the list. Test your program on a graph having at least 10 nodes and 20 edges.
+
+Q3. A lambda term is represented in de Bruijn notation as a tree with its leaves  labeled with the number of hops over lambda nodes needed to find their binder, on the way up to the root of the tree, starting with 0 when there's no other lambda node between the leaf and its binder. Write a program that converts this tree to a tree in which a leaf, for which there's no other lambda node between it and its binder, is marked with 1. 
+
+Note: If submitting answers to more than 2 questions, the best 2 will be graded. Submit everything as a single zip file on canvas.

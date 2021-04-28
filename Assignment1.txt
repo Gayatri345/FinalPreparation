@@ -1,0 +1,25 @@
+Assignment 1
+
+Team assignment, due Feb 2 at 1:00pm, please submit via canvas.
+
+The following Python program generates Motzkin trees (binary-unary trees). They are made of leaves, unary nodes (nodes with one branch) and binary nodes (nodes with two branches).
+
+# Motzkin tree of size n
+def mot (n) :
+  if n==0 : 
+    yield 'leaf'
+  else :
+    for m in mot(n-1) :
+      yield ('unary',m)
+    for k in range(0,n-1) :    
+      for l in mot(k) :
+        for r in mot(n-2-k) :        
+          yield ('binary',l,r)
+
+def test(m) :
+  for n in range(m) :
+    list(map(print,list(mot(n)))) 
+    
+Write a similar Python program that generates trees having nodes with 1, 2 or 3 branches.
+
+To facilitate grading, the program should provide a function similar to "test(m)", that, given a natural number m, prints out all trees of size less than m, one per line, in the same format.

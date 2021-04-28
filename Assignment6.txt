@@ -1,0 +1,28 @@
+Assignment 6, due Tuesday, April 5 at 11:00am
+
+Write a set of Python classes, connected by inheritance, that classify quadrilaterals, as shown in the picture at:
+
+http://www.cse.unt.edu/~tarau/teaching/GPL/HomeWorks/quad.pdf
+
+
+1) For each of the quadrilaterals, a method 
+
+  parents() 
+
+should be implemented that returns the name(s) of its parent(s).
+
+
+2) For each of the quadrilaterals, a method 
+
+  ancestors() 
+
+should be implemented that returns the name(s) of all its parent(s) or ancestors of its parent(s)
+
+
+3) By using your favorite drawing program, define a method 
+
+  show() 
+
+that draws the quadrilateral defined by its constructor method.
+
+4) Attach a complete set of tests showing an instance creation for each of the classes as well as a picture created by your show() method as a PDF, PNG, GIF or JPG file.
